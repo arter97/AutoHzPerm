@@ -4,6 +4,8 @@ Thanks for purchasing Auto90!
 
 For Auto90 to modify the system's display settings automatically, **secure write settings** permission has to be granted.
 
+If you're rooted, Auto90 will attempt to do this automatically without a help from a computer. If you're prompted to do this operation manually while you're rooted, please check if you granted root permissions to Auto90.
+
 ----------------------
 
 ### 1. Enable developer mode
