@@ -1,10 +1,10 @@
-# Auto90
+# AutoHz
 
-Thanks for purchasing Auto90!
+Thanks for purchasing AutoHz!
 
-For Auto90 to modify the system's display settings automatically, **secure write settings** permission has to be granted.
+For AutoHz to modify the system's display settings automatically, **secure write settings** permission has to be granted.
 
-If you're rooted, Auto90 will attempt to do this automatically without a help from a computer. If you're prompted to do this operation manually while you're rooted, please check if you granted root permissions to Auto90.
+If you're rooted, AutoHz will attempt to do this automatically without a help from a computer. If you're prompted to do this operation manually while you're rooted, please check if you granted root permissions to AutoHz.
 
 ----------------------
 
@@ -81,6 +81,10 @@ If you're rooted, Auto90 will attempt to do this automatically without a help fr
  * Enter the following to the CMD window, followed by an enter:
 
 ```adb shell pm grant com.arter97.auto90 android.permission.WRITE_SECURE_SETTINGS```
+
+ **Note that it's ```com.arter97.auto90``` and not ```com.arter97.autohz```.**
+
+ **This is because AutoHz was previously named Auto90.**
 
 ![5](5.png)
 
