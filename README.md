@@ -60,7 +60,7 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * Enter the following to the CMD window, followed by an enter:
 
-```adb shell echo success```
+ ```adb shell echo success```
 
  * You can copy the commands and paste it by **right-clicking on the CMD window**.
 
@@ -80,7 +80,7 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * Enter the following to the CMD window, followed by an enter:
 
-```adb shell pm grant com.arter97.auto90 android.permission.WRITE_SECURE_SETTINGS```
+ ```adb shell pm grant com.arter97.auto90 android.permission.WRITE_SECURE_SETTINGS```
 
  **Note that it's ```com.arter97.auto90``` and not ```com.arter97.autohz```.**
 
