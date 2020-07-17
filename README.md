@@ -44,6 +44,10 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * Run `sudo -s` and type your user password. **The terminal won't display how much characters you type, it'll remain blank.**
 
+ * Run `export PATH=.:$PATH`
+
+ **Without this, you will get `adb: command not found` errors.**
+
 ### 6. Locate ADB
 
  * From the terminal window, type "cd ". **Notice the empty whitespace after the "cd".**
