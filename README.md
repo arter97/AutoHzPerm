@@ -7,6 +7,11 @@ For AutoHz to modify the system's display settings automatically, **secure write
 If you're rooted, AutoHz will attempt to do this automatically without a help from a computer. If you're prompted to do this operation manually while you're rooted, please check if you granted root permissions to AutoHz.
 
 ----------------------
+### TL;DR
+
+ * Run `adb shell pm grant com.arter97.auto90 android.permission.WRITE_SECURE_SETTINGS`
+
+----------------------
 
 ### 1. Enable developer mode
 
@@ -72,11 +77,13 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
 ![4](4.png)
 
- * The command will show an error, **this is normal**. Your phone will prompt `Allow USB debugging` for you.
+ * The command may show an error, **this is normal**. Your phone will prompt `Allow USB debugging` for you.
+
+ * If it doesn't show an error, skip this step.
 
 ![adb prompt](adb_prompt.jpg)
 
- * Touch `OK`.
+ * Tap `OK`.
 
  * Try `adb shell echo success` again. **It must print `success`**.
 
