@@ -36,7 +36,9 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * Press `Windows + R` key on your keyboard.
 
- * Type `cmd` and hit enter. 
+ * Type `cmd` and hit enter.
+
+![1](1.png)
 
 #### 5.2. macOS: Open up Terminal
 
@@ -54,11 +56,11 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * Locate the extracted `platform-tools` folder from Windows Explorer or Finder(macOS) and drag it over to the terminal window. It'll auto-fill the path.
 
-![1](1.png)
+![2](2.png)
 
  * Press enter.
 
-![2](2.png)
+![3](3.png)
 
 ### 7. Allow your computer to be used for USB debugging
 
@@ -68,7 +70,7 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * You can copy the commands and paste it by **right-clicking on the CMD window**.
 
-![3](3.png)
+![4](4.png)
 
  * The command will show an error, **this is normal**. Your phone will prompt `Allow USB debugging` for you.
 
@@ -78,7 +80,7 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * Try `adb shell echo success` again. **It must print `success`**.
 
-![4](4.png)
+![5](5.png)
 
 ### 8. Grant write secure settings permission
 
@@ -90,7 +92,7 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  **This is because AutoHz was previously named Auto90.**
 
-![5](5.png)
+![6](6.png)
 
  * If the command executed properly, it'll return silently.
 
