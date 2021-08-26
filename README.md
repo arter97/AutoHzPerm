@@ -103,6 +103,12 @@ If you're rooted, AutoHz will attempt to do this automatically without a help fr
 
  * If the command executed properly, it'll return silently.
 
+#### 8.1. ColorOS (OnePlus Nord 2)
+
+ * If your device is based on ColorOS (including OnePlus Nord 2), a permission error may occur during the adb command above.
+
+ * Please enable `Disable permission monitoring` from the `Android Settings app` > `System` > `Developer options` and retry the command.
+
 ### 9. Disable USB debugging
 
  * If you don't need USB debugging, it's a good practice to disable it to avoid potential unwanted access.
